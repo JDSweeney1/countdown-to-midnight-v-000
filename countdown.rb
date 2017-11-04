@@ -6,7 +6,7 @@ def countdown
       x > 1 ? (puts "#{x} SECONDS!") : (puts "#{x} SECOND!")
       x -= 1
   end
-  "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 countdown
